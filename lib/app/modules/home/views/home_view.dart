@@ -65,7 +65,7 @@ class HomeView extends GetView<HomeController> {
                             value: controller.loadPercentage.toDouble() / 100)),
                     const Spacer(),
                     SvgPicture.asset(
-                      width: MediaQuery.sizeOf(context).width * 0.6,
+                      width: MediaQuery.sizeOf(context).width * 0.5,
                       fit: BoxFit.scaleDown,
                       'assets/images/site_logo.svg',
                     ),

@@ -1,3 +1,3 @@
 class StaticValue {
-  static String webUrl = "https://homebrigadierpro.com/";
+  static String webUrl = "https://hbmanagement.pages.dev/";
 }
