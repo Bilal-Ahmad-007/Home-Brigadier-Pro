@@ -1,0 +1,55 @@
+name: homebrigadier_pro
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+7
+
+environment:
+  sdk: ">=3.3.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  get: 4.6.6
+  file_picker:
+  webview_flutter:
+  permission_handler:
+  connectivity_plus:
+  flutter_svg:
+  open_file:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+
+
+flutter_native_splash:
+  image: assets/native_splash/native_splash.png
+  color: "#ffffff"
+  android: true
+  ios: true
+  android_12:
+    image: assets/launcher/ic_launcher.png
+    icon_background_color: "#ffffff"
+  web: false
+
+
+flutter_launcher_icons:
+  android: ic_launcher
+  image_path: assets/launcher/ic_launcher.png
+  ios: true
+  min_sdk_android: 21
+  remove_alpha_ios: true
+
+
+flutter:
+  assets:
+    - assets/images/
+  uses-material-design: true
